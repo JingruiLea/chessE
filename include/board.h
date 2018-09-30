@@ -12,7 +12,7 @@ const int PIECE_PAWN = 6;
 
 // 其他常数
 const int MAX_GEN_MOVES = 128; // 最大的生成走法数
-const int LIMIT_DEPTH = 32;    // 最大的搜索深度
+const int LIMIT_DEPTH = 32;    // 最大的搜索深度d
 const int MATE_VALUE = 10000;  // 最高分值，即将死的分值
 const int WIN_VALUE = MATE_VALUE - 100; // 搜索出胜负的分值界限，超出此值就说明已经搜索出杀棋了
 const int ADVANCED_VALUE = 3;  // 先行权分值
